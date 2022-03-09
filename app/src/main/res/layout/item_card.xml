@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/common_margin_half"
+    android:foreground="@drawable/selectable_item_background"
+    android:textSize="@dimen/text_medium"
+    app:cardCornerRadius="@dimen/corners_radius"
+    >
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <View
+            android:id="@+id/item_picture"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/common_margin"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/item_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/corners_radius"
+            android:layout_marginBottom="@dimen/common_margin"
+            android:textSize="@dimen/text_medium"
+            android:textColor="?android:textColorPrimary"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/corners_radius"
+            android:layout_marginBottom="@dimen/common_margin_half"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

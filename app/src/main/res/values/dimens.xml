@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_margin">16dp</dimen>
+    <dimen name="common_margin_half">8dp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="corners_radius">8sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="cat_part">192dp</dimen>
+    <dimen name="infinity">9999dp</dimen>
+</resources>

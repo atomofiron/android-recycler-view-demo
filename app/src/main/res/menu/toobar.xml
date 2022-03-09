@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_listview"
+        android:title="ListView"
+        />
+    <item
+        android:id="@+id/menu_easy"
+        android:title="Easy"
+        />
+    <item
+        android:id="@+id/menu_simple"
+        android:title="Simple"
+        />
+    <item
+        android:id="@+id/menu_ultimate"
+        android:title="Ultimate"
+        />
+</menu>

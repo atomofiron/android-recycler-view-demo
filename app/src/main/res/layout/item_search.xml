@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatEditText
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/common_margin_half"
+    android:background="@drawable/search"
+    android:drawableStart="@drawable/ic_search"
+    android:drawablePadding="@dimen/common_margin_half"
+    android:padding="12dp"
+    android:hint="Найти…"
+    />
